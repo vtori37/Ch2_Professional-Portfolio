@@ -83,7 +83,13 @@ background-position: 80%;
     padding-bottom: 20px;
     text-align: left;
     margin: 20px 10px 10px 100px;
-    width: 35%;
+}
+
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: flex-end;
 }
 
 /* ABOUT ME */
