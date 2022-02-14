@@ -4,3 +4,105 @@
     --goldish-color: #9A8365;
     --lavender-color: #4A3053;
 } 
+
+* {
+    margin: 0;
+}
+
+body {
+    color:var(--lightpurple-color)
+}
+
+/* HEADER */
+header {
+    padding: 10px 20px 10px 0;
+    background-color: var(--lavender-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header nav {
+    margin: 15px 0;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+
+header a{
+    display: flex;
+    font-size: 25px;
+    color: var(--lightpurple-color);
+}
+
+header nav ul li{
+    padding: 10px 15px;
+}
+
+header h1 {
+  color: var(--lavender-color);
+  background-color: var(--lightpurple-color);
+  padding: 15px 20px 0 30px;
+}  
+
+.hero-text {
+padding:50px;
+/* display: flex;
+flex-direction: row;
+align-items: flex-end; */
+}
+
+h2 {
+    color:#9A8365
+    
+}
+
+h5 {
+    color: #4A3053;
+}
+
+/* HERO */
+.hero {
+background-image: url("./images/ducks.jpg");
+background-size: cover;
+background-position: 80%;
+}
+
+/* Main section */
+.content {
+    margin: 20px;
+}
+
+.section-title {
+    font-size: 30px;
+    color: var(--lavender-color);
+    border-right: 3px solid;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 20px 10px 10px 100px;
+    width: 35%;
+}
+
+/* ABOUT ME */
+.about-me {
+    
+}
+
+/* WORK */
+.work {
+   
+}
+
+/* CONTACT ME */
+.contact-me {
+}
+
+/* FOOTER */
+footer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
