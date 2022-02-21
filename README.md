@@ -1,7 +1,7 @@
 # Victoria-Rice_Professional-Portfolio
 
 ## Description 
-![alt text](./assets/images/site-screenshot)
+![alt text](./assets/images/site-screenshot.png)
 
 This website serves as my Web development portfolio. It hosts the projects that I have worked on as well as projects that I am currently working on. 
 
