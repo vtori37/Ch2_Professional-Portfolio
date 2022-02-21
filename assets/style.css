@@ -231,110 +231,13 @@ footer {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
-    }
-    
-    
-    header nav {
-        width: 100%;
-        text-align: center;
     }
 
-    header nav ul a{
-        font-size: 20px;
-    }
-
-    header nav ul li{
-        font-size: 20px;
-    }
-    
-    
-    /* Main section */
-    .content {
-        margin: 20px;
-        width: 20%;  
-    }
-
-    .section-title {
-        margin: auto;
-        width: 90%;
-    }
-    
-    .top-photo img {
-        margin: auto;
-        width: 90%;
-    }
-    
            
 @media screen and (max-width: 658px) {
     header {
-        margin: auto;
-        width: 90%;
-    }
-  
     
-    header nav {
-        width: 100%;
-        text-align: center;
-    }
-    
-    header nav ul a{
-        font-size: 20px;
-    }
-
-    header nav ul li{
-        font-size: 20px;
-    }
-    
-    
-    p {
-     font-size: 20px;
-    }
-
-    .right-column {
-        flex: 2 100%;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .wrapper {
-        flex: 0 32%;
-        margin-right: 0;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-
-    .caption {
-      flex: 100%;
-    }
-}
-    
-@media screen and (max-width: 578px) {
-    header {
-        margin: auto;
-        width: 90%;
-    }
-    
-    header nav {
-        width: 100%;
-        text-align: center;
 }
 
-@media screen and (max-width: 383px) {
-    header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
-    }
-    
-    header nav {
-        width: 100%;
-        text-align: center;
-    }
-    
-    header nav ul {
-        margin-top: 20px;
-}
+@media screen and (max-width: 575px)
 }
