@@ -235,42 +235,194 @@ footer {
         justify-content: center;
         position: relative;
     }
-
-    header h1 {
+    
+    header div {
+        margin: 0;
+        padding: 0 40px 0 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: rgba(74, 48, 83, .5); 
+    }
+    
+    header nav {
         width: 100%;
         text-align: center;
     }
-
+    
     header nav ul {
         margin-top: 20px;
         width: 100%;
         justify-content: center;
     }
-
-    header nav ul li a {
+    
+    header nav ul a{
         font-size: 20px;
     }
 
-    footer h3 {
-        text-align: center;
-        width: 100%;
+    header nav ul li{
+        font-size: 20px;
     }
-
-    .contact{
-        width: 100%;
+    
+    
+    /* Main section */
+    .content {
+        margin: 20px;
+        width: 20%;  
     }
 
     .section-title {
-        width: 80%;
+    font-size: 30px;
+    color: var(--lavender-color);
+    text-align: left;
+    margin: 40px 0 30px 30px;
+    display: flex;
+    }
+    
+    .right-column .profile img {
+        width: 413px;
+        height: 343px;
+    }
+    
+    .top-photo img {
+        margin: auto;
+        width: 90%;
+    }
+    
+           
+@media screen and (max-width: 658px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header div {
+        margin: 0;
+        padding: 0 40px 0 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: rgba(74, 48, 83, .5); 
+    }
+    
+    header nav {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul a{
+        font-size: 20px;
     }
 
+    header nav ul li{
+        font-size: 20px;
+    }
+    
+    
+    p {
+     font-size: 20px;
+    }
 
-@media screen and (max-width: 658px) {
-    section {
+    .right-column {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .wrapper {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .caption {
+      flex: 100%;
+    }
+}
+    
+@media screen and (max-width: 578px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header nav {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul a{
+        font-size: 20px;
+    }
+
+    header nav ul li{
+        font-size: 20px;
+    }
+
+    .right-column {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .wrapper {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .caption {
+      flex: 100%;
+    }
+}
+
+@media screen and (max-width: 383px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header nav {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul a{
+        font-size: 20px;
+    }
+
+    header nav ul li{
+        font-size: 20px;
+    }
+    
+    .section-title {
         padding: 30px 15px;
     }
 
-    .step h3 {
+    content {
         flex: 1 100%;
         text-align: center;
     }
@@ -289,29 +441,7 @@ footer {
     }
 
     .step-text {
-        flex: 100%;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .hero-form button {
-        width: 100%;
-    }
-
-    .section-title {
-        width: 95%;
-    }
-
-    .intro p {
-        width: 100%;
-    }
-
-    .trainer {
-        flex: 0 100%;
-    }
-
-    .contact-info {
-        text-align: center;
+      flex: 100%;
     }
 }
 }
