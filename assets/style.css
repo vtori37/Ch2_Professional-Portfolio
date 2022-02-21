@@ -236,26 +236,12 @@ footer {
         position: relative;
     }
     
-    header div {
-        margin: 0;
-        padding: 0 40px 0 40px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        background-color: rgba(74, 48, 83, .5); 
-    }
     
     header nav {
         width: 100%;
         text-align: center;
     }
-    
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-    
+
     header nav ul a{
         font-size: 20px;
     }
@@ -272,16 +258,8 @@ footer {
     }
 
     .section-title {
-    font-size: 30px;
-    color: var(--lavender-color);
-    text-align: left;
-    margin: 40px 0 30px 30px;
-    display: flex;
-    }
-    
-    .right-column .profile img {
-        width: 413px;
-        height: 343px;
+        margin: auto;
+        width: 90%;
     }
     
     .top-photo img {
@@ -292,29 +270,14 @@ footer {
            
 @media screen and (max-width: 658px) {
     header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
+        margin: auto;
+        width: 90%;
     }
-    
-    header div {
-        margin: 0;
-        padding: 0 40px 0 40px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        background-color: rgba(74, 48, 83, .5); 
-    }
+  
     
     header nav {
         width: 100%;
         text-align: center;
-    }
-    
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
     }
     
     header nav ul a{
@@ -350,46 +313,13 @@ footer {
     
 @media screen and (max-width: 578px) {
     header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
+        margin: auto;
+        width: 90%;
     }
     
     header nav {
         width: 100%;
         text-align: center;
-    }
-    
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-    
-    header nav ul a{
-        font-size: 20px;
-    }
-
-    header nav ul li{
-        font-size: 20px;
-    }
-
-    .right-column {
-        flex: 2 100%;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .wrapper {
-        flex: 0 32%;
-        margin-right: 0;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-
-    .caption {
-      flex: 100%;
-    }
 }
 
 @media screen and (max-width: 383px) {
@@ -406,42 +336,5 @@ footer {
     
     header nav ul {
         margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-    
-    header nav ul a{
-        font-size: 20px;
-    }
-
-    header nav ul li{
-        font-size: 20px;
-    }
-    
-    .section-title {
-        padding: 30px 15px;
-    }
-
-    content {
-        flex: 1 100%;
-        text-align: center;
-    }
-
-    .step-info {
-        flex: 2 100%;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .step-img {
-        flex: 0 32%;
-        margin-right: 0;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-
-    .step-text {
-      flex: 100%;
-    }
 }
 }
