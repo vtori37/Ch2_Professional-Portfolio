@@ -1,0 +1,77 @@
+:root {
+    --sage-color: #3f6454;
+    --lightpurple-color: #e9dfeb;
+    --goldish-color: rgb(170, 159, 135);
+    --lavender-color: #201724;
+} 
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+
+
+nav ul a {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+a {
+  color: var(--sage-color);
+}
+
+.card .card-image .card-title {
+  color: #3f6454;
+}
+
+.about-me .card {
+  width: 400px;
+  /* margin-left: auto; */
+}
+
+.about-me .card .card-image .card-title {
+  color: #e9dfeb;
+}
+.work-day-title {
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.container {
+  width: 70%;
+}
+.row {
+  margin-left: 20%;
+  width: 70%;
+  } 
+
+.row .row-medium {
+  margin-left: 50%;
+}
+
+
+.brand-logo {
+    margin-left: 20px;
+  }
+
+ .centering {
+   margin-left: 30%;
+ }
+
+
