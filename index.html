@@ -1,122 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title> Victoria Rice | Portfolio</title>
-        <link rel="stylesheet" href="./assets/style.css"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
 
-        <!--Header-->
-        <header>
-            <div>
-                <h1>
-                    <a href="/"></a>VICTORIA RICE
-                </h1>
-                <!--Navigation Menu-->
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#about-me"> About Me</a>
-                        </li>
-                        <li>
-                            <a href="#work"> Work</a>
-                        </li>
-                        <li>
-                            <a href="#contact-me"> Contact Me</a>
-                        </li>
-                        <li>
-                            <a href="#resume"> Resume</a>
-                        </li>
+<head>
+    <meta charset="UTF-8">
+    <title> Victoria Rice | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+    <!--Header-->
+    <header>
+        <!--Navigation Menu-->
+        <nav style="background-color: #5a7663;">
+            <div class="nav-wrapper">
+                <a href="#" class="sidenav-trigger" data-target="small-screen-nav">
+                    <i class="fas fa-bars"></i>
+                    <a href="#" class="brand-logo">VICTORIA RICE</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li class="tab"><a class="nav-link" href="#about-me"> About Me</a></li>
+                        <li class="tab"><a class="nav-link" href="#work"> Work</a></li>
+                        <li class="tab"><a class="nav-link" href="#contact-me"> Contact Me</a></li>
+                        <!-- <li class="tab"><a class="nav-link" href="#resume"> Resume</a></li> -->
                     </ul>
-                </nav>
             </div>
-        </header>
+        </nav>
 
-            <!--hero/jumbotron-->
-        <section class="hero">
-            <h2> Welcome, Check out my Portfolio!</h2>
-            </section>
-        
-        <!--About Me-->
+        <ul id="smaller-screens" class="sidenav">
+            <li class="tab"><a class="nav-link" href="#about-me"> About Me</a></li>
+            <li class="tab"><a class="nav-link" href="#work"> Work</a></li>
+            <li class="tab"><a class="nav-link" href="#contact-me"> Contact Me</a></li>
+            <li class="tab"><a class="nav-link" href="#resume"> Resume</a></li>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </header>
 
-        <section id="about-me" class="section-title">
-            <div class="content">
-                <h3> About Me </h3>
-            </div>
-                
-            <div class="right-column">
-                <div class="profile">
-                    <img src="./assets/images/Profile_Pic.JPG" alt="Victoria is smiling for a picture with nature in the background"/>
-                    <div class="photo-text">
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsum perspiciatis dolor in est corporis tempore nobis sequi, ab voluptatem itaque unde rerum facilis consectetur odio eveniet culpa. Id, placeat.
+    <!--hero/jumbotron-->
+    <hero>
+
+        <div class="hero">
+            <h2 class="text-align center"> Welcome, Check out my Portfolio!</h2>
+        </div>
+
+    </hero>
+
+
+
+    <!--About Me-->
+    <section class="container">
+        <div class="row centering">
+            <div class="col s12 m7">
+                <div id="about-me">
+                    <div class="card medium">
+                        <div class="card-image">
+                            <img src="./assets/images/Profile_Pic.JPG"
+                                alt="Victoria is smiling for a picture with nature in the background" />
+                            <span class="card-title">About Me</span>
+                        </div>
+                        <div class="card-content">
+                            <p> My name is Victoria Rice. I am an aspiring Full Stack web developer, currently enrolled
+                                in
+                                Univeristy of Texas at Austin's Coding Bootcamp.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://github.com/vtori37/Group-Project-1">Check out my GitHub! </a>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Work-->
+    <main>
+        <h3 id="work" class="work-day-title">Work</h3>
+        <section class="container">
+            <div class="row centering">
+                <div class="col s12 m7">
+                    <div class="card">
+                        <div class="card medium">
+                            <div class="card-image">
+                                <a href="https://vtori37.github.io/Group-Project-1/" target="_blank">
+                                    <img src="./assets/images/Feels-Like-Films-SS.png" width="250px"
+                                        alt="Feels Like Films Homepage" />
+                                    <h4 class="card-title color-green">Feels Like Films</h4>
+                            </div>
+                            <div class="card-content">
+                                <p> Feels Like Films is a movie recommendation application that suggests films to users
+                                    according to the weather of a city they search.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Feels Like Films README! </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="container">
+            <div class="row row-medium">
+
+                <div class="col s6 m5">
+                    <div class="card">
+                        <div class="card medium">
+                            <div class="card-image">
+                                <a href="https://vtori37.github.io/super-disco-main/" target="_blank">
+                                    <img src="./assets/images/workday.png" width=230px alt="Workday Scheduler" />
+                                    <h4 class="card-title">Workday Scheduler</h4>
+                            </div>
+                            <div class="card-content">
+                                <p> Workday Scheduler is an application that allows the user to keep track of tasks
+                                    they'd
+                                    like to accopmplish throughout the day. The color of the time will change depending
+                                    on
+                                    the time of day.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/vtori37/super-disco-main"> Workday Scheduler README
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s6 m5">
+                    <div class="card">
+                        <div class="card medium">
+                            <div class="card-image">
+                                <a href="https://vtori37.github.io/run-buddy/" target="_blank">
+                                    <img src="./assets/images/run-buddy.png" width="230px"
+                                        alt="Run Buddy website screenshot" />
+                                    <h4 class="card-title">Run Buddy</h4>
+                            </div>
+                            <div class="card-content">
+                                <p> Run Buddy is a mock applicaiton that serves to demonstrate the usage of CSS.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://github.com/vtori37/run-buddy">Run Buddy README</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
-        <!--Work-->
-        <section id="work" class="section-title">
-            <div class="content">
-                <h3>Work</h3>
-            </div>
-            
-            <main class="right-column">
-                <div class="top-photo">
-                    <a href="https://vtori37.github.io/run-buddy/" target="_blank">
-                        <img src="./assets/images/run-buddy.png" alt="Run Buddy website screenshot"/>
-                    </a>  
-                    <div class="top-photo-text">
-                        <h3> Run Buddy</h3>
-                    </div>
-                    
+    </main>
+
+
+
+    <footer class="page-footer" style="background-color: #5a7663;">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Created by Victoria Rice</h5>
+                    <p class="grey-text text-lighten-4">Feel free to contact me!</p>
                 </div>
-
-                <div class="wrapper">
-                    <div class="box">
-                        <img class="images" src="./assets/images/SM-placeholder.png" alt="Placeholder Image"/>
-                            <h3 class="caption"> Robot Gladiators</h3>         
-                    </div>
-                    
-                    <div class="box">
-                        <img class="images" src="./assets/images/SM-placeholder.png" alt="Placeholder Image" />
-                                <h3 class="caption">Challenge 3</h3>                      
-                    </div>
-                </div>
-
-                <div class="wrapper">
-                    <div class="box">
-                        <img class="images" src="./assets/images/SM-placeholder.png" alt="Placeholder Image" />
-                                <h3 class="caption">Challenge 4</h3>                       
-                    </div>
-
-                    <div class="box">       
-                        <img class="images" src="./assets/images/SM-placeholder.png" alt="Placeholder Image" />
-                                <h3 class="caption">Challenge 5</h3>
-                    </div>
-                </div>
-            </main>
-            
-        </section>
-
-
-        <section id="contact-me" class="contact">
-            <div class="contact-background">
-                <h4>Contact Me</h4>
-                <div class="contact-info">
-                    <p>  Feel free to contact me! </p>
-                        <address>
-                            <strong>LinkedIn:</strong> <a href= "https://www.linkedin.com/in/victoria-rice-360/"> victoria-rice-360</a>
-                            <strong>Email:</strong> <a href="vrice360@gmail.com">vrice360@gmail.com</a>
-                                <strong>GitHub:</strong> <a href="https://github.com/vtori37">vtori37</a>
-                        </address>
+                <div class="col l4 offset-l2 s12">
+                    <h5 id="contact-me" class="white-text">Contact Me</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3"
+                                href="https://www.linkedin.com/in/victoria-rice-360/">LinkedIns</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://github.com/vtori37">GitHub</a></li>
+                        <li><a class="grey-text text-lighten-3" href="vrice360@gmail.com">Email</a> </a></li>
+                    </ul>
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            </div>
+        </div>
+    </footer>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+<<<<<<< HEAD
         <footer>
             <h5> Made by Victoria Rice</h5>
         </footer>
     </body>
+=======
+>>>>>>> new-design
 </html>
