@@ -35,18 +35,17 @@ a {
   color: var(--sage-color);
 }
 
-.card .card-image .card-title {
-  color: #3f6454;
+.card .card-image .card-title{
+  color: #37734a;
+  background-color: #e6dde69a;
 }
 
-.about-me .card {
+about-me .card {
   width: 400px;
   /* margin-left: auto; */
 }
 
-.about-me .card .card-image .card-title {
-  color: #e9dfeb;
-}
+
 .work-day-title {
   font-size: 25px;
   text-decoration: underline;
